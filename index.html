@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=500, initial-scale=1" />
+
+    <!-- Change this to your name-->
+    <meta name="author" content="Huynh Huy Hoang" />
+
+    <title>WEB222 Music App</title>
+    <!-- Classless CSS Stylesheet - https://newcss.net/ -->
+    <link rel="stylesheet" href="./css/new.css" />
+    <!-- Inter font included with new.css -->
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+
+  </head>
+  <body>
+    <header>
+      <!-- Change this to your App's info -->
+      <style>
+        
+        
+      </style>
+     <h1 style="text-align: center; color: #7AF4E8;background-color: #858276;">Harmony-Hub</h1>
+      <p>Classical music, from basic to fantastic</p>
+    </header>
+
+    <nav id="menu">
+      <!-- Dynamically create your menu category buttons here -->
+    
+
+      
+
+    </nav>
+
+    <hr />
+
+    <main>
+      <h2 id="selected-artist">
+        <!-- Dynamically update the selected category title -->
+      </h2>
+      <div id= "socialLinkContainer"></div>
+
+      <table>
+        <thead>
+          <!-- Statically create the headings for your table here -->
+           <tr>
+            <th>Song name</th>
+            <th>Album name</th>
+            <th>Year record </th>
+            <th>Duration</th>
+           </tr>
+        </thead>
+        <tbody id="songs">
+          <!-- Dynamically create your product rows here -->
+        </tbody>
+      </table>
+    </main>
+
+    <!-- JavaScript Data Files -->
+    <script src="./js/artists.js"></script>
+    <script src="./js/songs.js"></script>
+
+    <!-- Main App JavaScript File -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
